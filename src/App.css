@@ -1,0 +1,255 @@
+@import url('https://fonts.cdnfonts.com/css/tiempos-headline');         
+
+*{
+  margin: 0%;
+  padding: 0%;
+                                            
+}
+
+h2{
+  font-size: 130px;
+  padding-left: 1%;
+  text-transform: capitalize;
+  text-align: left;
+  font-family: 'Tiempos Headline', sans-serif;
+}
+
+h4{
+  font-weight: normal;
+  text-align: left;
+  font-family: 'Tiempos Headline', sans-serif;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+video{ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  object-fit: cover;
+  width: 1358px;
+  height: 100vh;
+  pointer-events: none;
+  float: left;
+  padding: none;
+  aspect-ratio: 4/3;
+}
+
+.texto{
+  font-size: 150px;
+  position: relative;
+  align-items: center;
+  align-content: center;
+}
+
+#j{
+  display: flex;
+}
+
+#a{
+  color: rgba(255, 255, 255, 0);
+  text-transform: uppercase;
+  font-size: 200px;
+  position: fixed;
+  float: left;
+  left: 0%;
+  top: 0%;
+  -webkit-text-stroke: 2px white;
+  text-decoration: wavy;
+}
+
+#d1{
+  position: fixed;
+  float: right;
+  font-size: 20px;
+  left: 70%;
+  top: 90%;
+}
+
+.im{
+  top: 90%;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+@keyframes m1{
+   0%,100%  {background-image:  url('./u/n1.jpg');}
+   25% {background-image: url('./u/n0.webp');}
+   50% {background-image: url('./u/n5.png');}
+   50% {background-image: url('./u/nr.jpg');}
+}
+
+#i11{
+  animation: m1 16.5s infinite;
+  width: 45%;
+  height: 65%;
+  position: fixed;
+  top: 60%;
+  left: 15%;
+  -webkit-transition: m1 8s ease;
+  transition: m1 8s ease;
+  transform-style: flat;
+  transform: translate(-20%,-20%);
+  z-index: 2;
+}
+
+#i12{
+  background-image: url('./u/d1.jpg');;
+  width: 33%;
+  height: 60%;
+  border-top: 50% solid white;
+  position: fixed;
+  top: 40%;
+  left: 72%;
+  transform: translate(-20%,-20%);
+  z-index: 2;
+}
+
+#na1{
+  color: rgb(0, 0, 0);
+  font-size: 140px;
+  position: fixed;
+  left: 3%;
+  top: 6.5%;
+  font-style: italic;
+  width: 60%;
+}
+
+#na{
+  width: 33%;
+  left: 59%;
+  top: 42%;
+  font-size: 20px;
+  transform: translateX(50px);
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+  justify-content: left;
+  text-align: justify;
+}
+
+#s5{
+  color: rgb(211, 220, 226);
+  font-size: 160px;
+  position: fixed;
+  left: 3%;
+  top: 10%;
+  width: 55%;
+  font-style: italic;
+}
+
+span{
+  font-family: sans-serif;
+  text-decoration: wavy;
+  font-weight: bolder;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#s2{
+  color: rgb(255, 255, 255);
+  width: 35%;
+  left: 58%;
+  top: 52%;
+  font-size: 25px;
+  transform: translateX(50px);
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+  letter-spacing: 3%;
+}
+
+#i13{
+  background-image: url('./u/s4.jpg');;
+  width: 50%;
+  height: 20%;
+  position: fixed;
+  top: 20%;
+  left: 58%;
+  transform: translate(-20%,-20%);
+  z-index: 2;
+}
+
+#i14{
+  background-image: url('./u/s6.jpg');;
+  width: 60%;
+  height: 28%;
+  position: fixed;
+  top: 45%;
+  left: 15%;
+  transform: translate(-20%,-20%);
+  z-index: 2;
+}
+
+#m{
+  color: rgb(170, 206, 209);
+  font-size: 160px;
+  position: fixed;
+  left: 3%;
+  top: 10%;
+  width: 55%;
+  font-style: italic;
+}
+
+#ma{
+  color: rgb(255, 255, 255);
+  width: 35%;
+  left: 58%;
+  top: 52%;
+  font-size: 20px;
+  transform: translateX(50px);
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+
+#i15{
+  background-image: url('./u/b1.jpg');;
+  width: 100%;
+  height: 25%;
+  position: fixed;
+  top: -25%;
+  left: 0%;
+  z-index: 2;
+}
+
+#i16{
+  background-image: url('./u/b2.jpg');;
+  width: 100%;
+  height: 32%;
+  position: fixed;
+  top: -9%;
+  left: 0%;
+  z-index: 2;
+}
+
+
+#i17{
+  background-image: url('./u/sao-martinho-dos-tigres-angola.jpg');;
+  width: 100%;
+  height: 22%;
+  position: fixed;
+  top: 23%;
+  left: 0%;
+  z-index: 2;
+}
+
+.im{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position:center;
+  opacity: 1;
+  background-repeat: no-repeat;
+}
+
+.im.active{
+  transform: translateY(0px);
+  opacity: 1;
+  filter: blur(0);
+}
