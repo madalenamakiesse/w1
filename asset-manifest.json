@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/w1/static/css/main.920358ff.css",
+    "main.js": "/w1/static/js/main.61456448.js",
+    "static/media/t.mp4": "/w1/static/media/t.138306c553d9e9139fc6.mp4",
+    "static/media/n5.png": "/w1/static/media/n5.a6fcbc8555d86c5fb021.png",
+    "static/media/s6.jpg": "/w1/static/media/s6.4fcb3bd7797598011f19.jpg",
+    "static/media/b2.jpg": "/w1/static/media/b2.3f9f9af32abb4c0aec24.jpg",
+    "static/media/d1.jpg": "/w1/static/media/d1.d177f8aa908f8976eafc.jpg",
+    "static/media/s4.jpg": "/w1/static/media/s4.a852afebec436933c8f6.jpg",
+    "static/media/sao-martinho-dos-tigres-angola.jpg": "/w1/static/media/sao-martinho-dos-tigres-angola.fb82789f0a03b2dfb849.jpg",
+    "static/media/nr.jpg": "/w1/static/media/nr.2f155961659cf3582703.jpg",
+    "static/media/n1.jpg": "/w1/static/media/n1.665861d776fd9c8fe9c0.jpg",
+    "static/media/b1.jpg": "/w1/static/media/b1.0ca9ff9b568d8e839ec1.jpg",
+    "static/media/n0.webp": "/w1/static/media/n0.4278d75730609396ef7b.webp",
+    "index.html": "/w1/index.html",
+    "main.920358ff.css.map": "/w1/static/css/main.920358ff.css.map",
+    "main.61456448.js.map": "/w1/static/js/main.61456448.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.920358ff.css",
+    "static/js/main.61456448.js"
+  ]
+}
